@@ -1,0 +1,10 @@
+# IDE / Editor files
+.vscode/
+
+# zephyr
+.west/
+bootloader/
+modules/
+tools/
+zephyr/
+zephyr-sdk-0.17.4/

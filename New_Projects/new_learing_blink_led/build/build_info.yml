@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: 'C:/zephyrproject/New_Projects/new_learing_blink_led'
+    source-dir: 'C:/zephyrproject/New_Projects/new_learing_blink_led'
+  board:
+    name: 'nucleo_f401re'
+    path:
+     - 'C:/zephyrproject/zephyr/boards/st/nucleo_f401re'
+    qualifiers: 'stm32f401xe'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/zephyrproject/zephyr/dts/bindings'
+    files:
+     - 'C:/zephyrproject/zephyr/boards/st/nucleo_f401re/nucleo_f401re.dts'
+    include-dirs:
+     - 'C:/zephyrproject/modules/hal/ambiq/dts'
+     - 'C:/zephyrproject/modules/hal/atmel/include'
+     - 'C:/zephyrproject/modules/hal/bouffalolab/include'
+     - 'C:/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - 'C:/zephyrproject/modules/hal/gigadevice/include'
+     - 'C:/zephyrproject/modules/hal/microchip/include'
+     - 'C:/zephyrproject/modules/hal/microchip/dts'
+     - 'C:/zephyrproject/modules/hal/nuvoton/dts'
+     - 'C:/zephyrproject/modules/hal/nxp/dts'
+     - 'C:/zephyrproject/modules/hal/stm32/dts'
+     - 'C:/zephyrproject/modules/hal/ti/dts'
+     - 'C:/zephyrproject/zephyr/include'
+     - 'C:/zephyrproject/zephyr/include/zephyr'
+     - 'C:/zephyrproject/zephyr/dts/common'
+     - 'C:/zephyrproject/zephyr/dts/vendor'
+     - 'C:/zephyrproject/zephyr/dts/rx'
+     - 'C:/zephyrproject/zephyr/dts/x86'
+     - 'C:/zephyrproject/zephyr/dts/xtensa'
+     - 'C:/zephyrproject/zephyr/dts/sparc'
+     - 'C:/zephyrproject/zephyr/dts/riscv'
+     - 'C:/zephyrproject/zephyr/dts/posix'
+     - 'C:/zephyrproject/zephyr/dts/arm64'
+     - 'C:/zephyrproject/zephyr/dts/arm'
+     - 'C:/zephyrproject/zephyr/dts/arc'
+     - 'C:/zephyrproject/zephyr/dts'
+  kconfig:
+    files:
+     - 'C:/zephyrproject/zephyr/boards/st/nucleo_f401re/nucleo_f401re_defconfig'
+     - 'C:/zephyrproject/New_Projects/new_learing_blink_led/prj.conf'
+    user-files:
+     - 'C:/zephyrproject/New_Projects/new_learing_blink_led/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/zephyrproject/zephyr-sdk-0.17.4'
+  zephyr:
+    version: '4.3.99'
+    zephyr-base: 'C:/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Program Files\Python311\Scripts\west build -b nucleo_f401re .'
+  topdir: 'C:\zephyrproject'
+  version: '1.5.0'
