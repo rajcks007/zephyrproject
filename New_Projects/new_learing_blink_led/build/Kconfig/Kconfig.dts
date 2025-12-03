@@ -2817,11 +2817,6 @@ DT_COMPAT_GD_GD32_WWDGT := gd,gd32-wwdgt
 config DT_HAS_GD_GD32_WWDGT_ENABLED
 	def_bool $(dt_compat_enabled,$(DT_COMPAT_GD_GD32_WWDGT))
 
-DT_COMPAT_GENERIC_FEM_TWO_CTRL_PINS := generic-fem-two-ctrl-pins
-
-config DT_HAS_GENERIC_FEM_TWO_CTRL_PINS_ENABLED
-	def_bool $(dt_compat_enabled,$(DT_COMPAT_GENERIC_FEM_TWO_CTRL_PINS))
-
 DT_COMPAT_GNSS_NMEA_GENERIC := gnss-nmea-generic
 
 config DT_HAS_GNSS_NMEA_GENERIC_ENABLED
@@ -2866,11 +2861,6 @@ DT_COMPAT_GPIO_QDEC := gpio-qdec
 
 config DT_HAS_GPIO_QDEC_ENABLED
 	def_bool $(dt_compat_enabled,$(DT_COMPAT_GPIO_QDEC))
-
-DT_COMPAT_GPIO_RADIO_COEX := gpio-radio-coex
-
-config DT_HAS_GPIO_RADIO_COEX_ENABLED
-	def_bool $(dt_compat_enabled,$(DT_COMPAT_GPIO_RADIO_COEX))
 
 DT_COMPAT_GREELED_LPD8803 := greeled,lpd8803
 
@@ -7887,6 +7877,11 @@ DT_COMPAT_NXP_S32_CLOCK := nxp,s32-clock
 config DT_HAS_NXP_S32_CLOCK_ENABLED
 	def_bool $(dt_compat_enabled,$(DT_COMPAT_NXP_S32_CLOCK))
 
+DT_COMPAT_NXP_S32_CRYPTO_HSE_MU := nxp,s32-crypto-hse-mu
+
+config DT_HAS_NXP_S32_CRYPTO_HSE_MU_ENABLED
+	def_bool $(dt_compat_enabled,$(DT_COMPAT_NXP_S32_CRYPTO_HSE_MU))
+
 DT_COMPAT_NXP_S32_EMIOS := nxp,s32-emios
 
 config DT_HAS_NXP_S32_EMIOS_ENABLED
@@ -8581,6 +8576,16 @@ DT_COMPAT_QUICKLOGIC_USBSERIALPORT_S3B := quicklogic,usbserialport-s3b
 
 config DT_HAS_QUICKLOGIC_USBSERIALPORT_S3B_ENABLED
 	def_bool $(dt_compat_enabled,$(DT_COMPAT_QUICKLOGIC_USBSERIALPORT_S3B))
+
+DT_COMPAT_RADIO_FEM_TWO_CTRL_PINS := radio-fem-two-ctrl-pins
+
+config DT_HAS_RADIO_FEM_TWO_CTRL_PINS_ENABLED
+	def_bool $(dt_compat_enabled,$(DT_COMPAT_RADIO_FEM_TWO_CTRL_PINS))
+
+DT_COMPAT_RADIO_GPIO_COEX := radio-gpio-coex
+
+config DT_HAS_RADIO_GPIO_COEX_ENABLED
+	def_bool $(dt_compat_enabled,$(DT_COMPAT_RADIO_GPIO_COEX))
 
 DT_COMPAT_RASPBERRYPI_CORE_SUPPLY_REGULATOR := raspberrypi,core-supply-regulator
 
@@ -10281,6 +10286,16 @@ DT_COMPAT_SIFLI_SF32LB_GPIO_PARENT := sifli,sf32lb-gpio-parent
 
 config DT_HAS_SIFLI_SF32LB_GPIO_PARENT_ENABLED
 	def_bool $(dt_compat_enabled,$(DT_COMPAT_SIFLI_SF32LB_GPIO_PARENT))
+
+DT_COMPAT_SIFLI_SF32LB_GPT_PWM := sifli,sf32lb-gpt-pwm
+
+config DT_HAS_SIFLI_SF32LB_GPT_PWM_ENABLED
+	def_bool $(dt_compat_enabled,$(DT_COMPAT_SIFLI_SF32LB_GPT_PWM))
+
+DT_COMPAT_SIFLI_SF32LB_GPTIM := sifli,sf32lb-gptim
+
+config DT_HAS_SIFLI_SF32LB_GPTIM_ENABLED
+	def_bool $(dt_compat_enabled,$(DT_COMPAT_SIFLI_SF32LB_GPTIM))
 
 DT_COMPAT_SIFLI_SF32LB_HXT48 := sifli,sf32lb-hxt48
 
@@ -12971,6 +12986,11 @@ DT_COMPAT_TI_INA230 := ti,ina230
 
 config DT_HAS_TI_INA230_ENABLED
 	def_bool $(dt_compat_enabled,$(DT_COMPAT_TI_INA230))
+
+DT_COMPAT_TI_INA232 := ti,ina232
+
+config DT_HAS_TI_INA232_ENABLED
+	def_bool $(dt_compat_enabled,$(DT_COMPAT_TI_INA232))
 
 DT_COMPAT_TI_INA236 := ti,ina236
 

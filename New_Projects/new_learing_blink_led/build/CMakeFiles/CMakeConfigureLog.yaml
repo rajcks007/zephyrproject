@@ -7868,3 +7868,163 @@ events:
         - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2437 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "C:/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:129 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Program Files/Python311/"
+    searched_directories:
+      - "C:/Program Files/Python311/python3.15_d.com"
+      - "C:/Program Files/Python311/python3.15_d.exe"
+      - "C:/Program Files/Python311/python3.15_d"
+      - "C:/Program Files/Python311/python3.14_d.com"
+      - "C:/Program Files/Python311/python3.14_d.exe"
+      - "C:/Program Files/Python311/python3.14_d"
+      - "C:/Program Files/Python311/python3.13_d.com"
+      - "C:/Program Files/Python311/python3.13_d.exe"
+      - "C:/Program Files/Python311/python3.13_d"
+      - "C:/Program Files/Python311/python3.12_d.com"
+      - "C:/Program Files/Python311/python3.12_d.exe"
+      - "C:/Program Files/Python311/python3.12_d"
+      - "C:/Program Files/Python311/python3.11_d.com"
+      - "C:/Program Files/Python311/python3.11_d.exe"
+      - "C:/Program Files/Python311/python3.11_d"
+      - "C:/Program Files/Python311/python3.10_d.com"
+      - "C:/Program Files/Python311/python3.10_d.exe"
+      - "C:/Program Files/Python311/python3.10_d"
+      - "C:/Program Files/Python311/python3_d.com"
+      - "C:/Program Files/Python311/python3_d.exe"
+      - "C:/Program Files/Python311/python3_d"
+      - "C:/Program Files/Python311/python_d.com"
+      - "C:/Program Files/Python311/python_d.exe"
+      - "C:/Program Files/Python311/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\rchoksi\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\rchoksi\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "C:/zephyrproject/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "C:/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:138 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/zephyrproject/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/zephyrproject/zephyr-sdk-0.17.4/"
+    searched_directories:
+      - "C:/zephyrproject/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/zephyrproject/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/zephyrproject/zephyr-sdk-0.17.4/sysroots/AMD64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "c:\\Users\\rchoksi\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\rchoksi\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\Python314\\Scripts\\"
+        - "C:\\Program Files\\Python314\\"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Nordic Semiconductor\\nrf-command-line-tools\\bin\\"
+        - "C:\\Program Files\\OpenSSL-Win64\\bin"
+        - "C:\\CMake\\bin"
+        - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\FAST"
+        - "C:\\FAST\\ffmpeg\\bin"
+        - "C:\\Ninja"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\rchoksi\\AppData\\Roaming\\npm"
+        - "C:\\Users\\rchoksi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...
