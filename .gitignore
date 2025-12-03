@@ -1,6 +1,9 @@
 # IDE / Editor files
 .vscode/
 
+# Environment
+.venv/
+
 # zephyr
 .west/
 bootloader/
